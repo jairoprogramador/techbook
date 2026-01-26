@@ -9,7 +9,7 @@
 
 <div align="center" style="margin-bottom: 20px;">
 
-[![Acceder a la Documentación](https://img.shields.io/badge/Acceder_a_la_Documentación-0078D4?style=for-the-badge&logo=book&logoColor=white)](https://jairoprogramador.github.io/techbook/)
+[![Acceder a la Página](https://img.shields.io/badge/Acceder_a_la_Documentación-0078D4?style=for-the-badge&logo=book&logoColor=white)](https://jairoprogramador.github.io/techbook/)
 
 </div>
 

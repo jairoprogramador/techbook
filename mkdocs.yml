@@ -4,6 +4,10 @@ nav:
   - Azure:
     - Inicio: azure/index.md
     - AZ-104:
+        - M09 - Virtual Machines:
+          - Disk Encryption: azure/az-104/m09/disk_encryption.md
+        - M16 - Recuperación:
+          - Site Recovery: azure/az-104/m16/site_recovery.md
         - M14 - Redes Virtuales:
           - Private Endpoint: azure/az-104/m14/private_endpoint.md
           - Private Link: azure/az-104/m14/private_link.md
