@@ -7,9 +7,6 @@
 
 </div>
 
-> **Repositorio de apuntes técnicos de tecnologías Cloud y programación**
-
-
 <div align="center" style="margin-bottom: 20px;">
 
 [![Acceder a la Documentación](https://img.shields.io/badge/Acceder_a_la_Documentación-0078D4?style=for-the-badge&logo=book&logoColor=white)](https://jairoprogramador.github.io/techbook/)
@@ -25,7 +22,7 @@
 ### Características
 
 - 📚 **Apuntes estructurados** - Contenido organizado por certificación y dominio tecnológico
-- 🎯 **Enfoque en certificaciones** - Preparación específica para exámenes profesionales
+- 🎯 **Enfoque en certificaciones** - Preparación específica para exámenes
 - 🔍 **Búsqueda integrada** - Navegación rápida con MkDocs Material
 - 📝 **Formato consistente** - Estructura uniforme para facilitar el estudio
 
