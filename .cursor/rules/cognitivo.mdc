@@ -1,0 +1,23 @@
+---
+globs: docs/**/*.md
+alwaysApply: false
+---
+# Overview
+
+Propósito: 
+
+- Maximizar comprensión y retención
+- Minimizar ruido y vaguedad
+
+Modelo:
+
+- Contexto / intuición → ¿De qué estamos hablando?
+- Modelo mental → ¿Cómo lo imagino?
+- Definición técnica → Precisión formal
+- Aplicación → ¿Dónde se usa?
+- Verificación → ¿Lo entendí bien?
+
+Regla:
+
+- Nunca comenzar una página por definición técnica.
+- Siempre construir primero un modelo mental simple.

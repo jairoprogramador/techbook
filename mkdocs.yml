@@ -1,0 +1,16 @@
+site_name: TechBook
+nav:
+  - Home: index.md
+  - Azure:
+    - Inicio: azure/index.md
+    - AZ-104:
+        - M14 - Redes Virtuales:
+          - Private Endpoint: azure/az-104/m14/private_endpoint.md
+          - Private Link: azure/az-104/m14/private_link.md
+          - Endpoint de Servicio: azure/az-104/m14/service_endpoint.md
+theme:
+  name: material
+  locale: es
+  features:
+    - navigation.tabs
+    - navigation.instant

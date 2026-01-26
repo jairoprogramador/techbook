@@ -1,0 +1,24 @@
+---
+globs: docs/**/*.md
+alwaysApply: false
+---
+# Overview
+
+Propósito:
+
+- Crear modelo mental inmediato
+- Reducir ansiedad técnica
+- Activar comprensión visual
+
+Reglas:
+
+- Máximo 3–6 líneas
+- Lenguaje cotidiano, no técnico
+- Una sola analogía clara
+- No usar definiones formales aquí
+- Listas técnicas
+- Siglas sin explicación
+
+Formato recomendado: Analogía breve en un solo párrafo
+
+Ejemplo: "Una VNet es como un barrio privado dentro de una ciudad. Todas las casas pueden comunicarse entre sí, pero desde fuera nadie entra sin autorización."
