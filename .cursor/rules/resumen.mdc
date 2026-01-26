@@ -1,0 +1,30 @@
+---
+globs: docs/**/*.md
+alwaysApply: false
+---
+# Overview
+
+Propósito:
+
+- Repaso de 30 segundos
+- Fijación de memoria de largo plazo
+
+Reglas:
+
+- 4–6 bullets máximo
+- Frases ultra cortas
+- Conceptos nucleares solamente
+
+Formato: Bullets de alta densidad conceptual
+
+Ejemplo:
+
+- VNet = red privada en Azure
+- Se divide en subredes
+- Control con NSG y UDR
+- Base de toda arquitectura
+
+Prohibido:
+
+- Nuevos conceptos
+- Frases largas

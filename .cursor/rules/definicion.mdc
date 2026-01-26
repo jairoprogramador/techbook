@@ -1,0 +1,28 @@
+---
+globs: docs/**/*.md
+alwaysApply: false
+---
+# Overview
+
+Propósito:
+
+- Introducir precisión formal
+- Anclar el concepto al modelo mental previo
+
+Reglas:
+
+- definición principal (2–3 líneas)
+- Luego 2–4 bullets clave
+- Frases cortas y directas
+
+Formato: Definición + bullets de propiedades
+
+Ejemplo: "Una Virtual Network (VNet) es un recurso de Azure que representa una red privada aislada dentro de la infraestructura de Azure.
+
+Permite:
+
+- Segmentación mediante subredes
+- Enrutamiento interno automático
+- Integración con servicios PaaS"
+
+Introducir casos de uso aquí

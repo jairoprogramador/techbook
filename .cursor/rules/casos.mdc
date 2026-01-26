@@ -1,0 +1,29 @@
+---
+globs: docs/**/*.md
+alwaysApply: false
+---
+# Overview
+
+Propósito:
+
+- Transferir conocimiento a escenarios reales
+- Preparar para arquitectura y examen
+
+Reglas:
+
+- 3–6 casos típicos
+- Cada caso en una línea
+- Orientados a arquitectura real
+
+Formato: Lista de escenarios concretos
+
+Ejemplo:
+
+- Aislar entornos prod/dev
+- Conectar on‑premises con Azure
+- Exponer PaaS de forma privada
+
+Prohibido:
+
+- Casos irrelevantes
+- Descripciones largas

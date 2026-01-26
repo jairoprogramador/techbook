@@ -1,0 +1,28 @@
+---
+globs: docs/**/*.md
+alwaysApply: false
+---
+# Overview
+
+Propósito:
+
+- Activar Active Recall
+- Simular condiciones de certificación
+
+Reglas:
+
+- 3–6 preguntas máximo
+- Estilo escenario
+- Preguntas cerradas o de decisión
+
+Formato: Lista numerada
+
+Ejemplo:
+
+- ¿Qué recurso controla el tráfico entre subredes?
+- ¿Puede una VNet tener múltiples address spaces?
+
+Prohibido:
+
+- Respuestas inmediatamente visibles
+- Preguntas triviales

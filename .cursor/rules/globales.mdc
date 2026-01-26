@@ -1,0 +1,19 @@
+---
+globs: docs/**/*.md
+alwaysApply: false
+---
+# Overview
+
+Obligatorias:
+
+- Frases cortas
+- Un concepto por frase
+- Terminología consistente
+- Inglés solo para nombres oficiales
+
+Evitar:
+
+- Redundancia
+- Párrafos largos
+- Jerga innecesaria
+- Opiniones personales

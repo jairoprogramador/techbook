@@ -1,0 +1,29 @@
+---
+globs: docs/**/*.md
+alwaysApply: false
+---
+# Overview
+
+Propósito:
+
+- Construir mapa estructural del concepto
+- Facilitar memorización jerárquica
+
+Reglas:
+
+- Lista de 3–8 componentes máximo
+- Cada componente con 1 línea de descripción
+- Orden lógico (de mayor a menor nivel)
+
+Prohibido:
+
+- Explicaciones largas
+- Mezclar funcionamiento aquí
+
+Formato: Lista con bullets + breve explicación
+
+Ejemplo:
+
+Address Space – rango de IPs de la red
+Subnets – segmentación interna
+NSG – control de tráfico

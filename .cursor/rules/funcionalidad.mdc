@@ -1,0 +1,36 @@
+---
+globs: docs/**/*.md
+alwaysApply: false
+---
+# Overview
+
+Se usa solo cuando:
+
+- Hay flujo interno complejo
+- Hay interacción entre varios componentes
+- Es tema frecuente de examen
+
+Propósito:
+
+- Explicar dinámica interna
+- Preparar para escenarios
+
+Reglas:
+
+- Máximo 5–8 pasos
+- Orden secuencial
+- Lenguaje operativo
+
+Formato: Secuencia numerada
+
+Ejemplo:
+
+1. El cliente envía tráfico a la subred
+2. El NSG evalúa reglas
+3. La UDR redefine la ruta
+4. El paquete sale por el gateway
+
+Prohibido:
+
+- Diagramas textuales largos
+- Casos de uso aquí

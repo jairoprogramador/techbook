@@ -1,0 +1,28 @@
+---
+globs: docs/**/*.md
+alwaysApply: false
+---
+# Overview
+
+Propósito:
+
+- Prevenir fallos de examen
+- Clarificar límites conceptuales
+
+Reglas:
+
+- 3–6 errores frecuentes
+- Formato afirmativo ("Pensar que…")
+- Directamente alineados con trampas de examen
+
+Formato: Lista de confusiones típicas
+
+Ejemplo:
+
+- Pensar que una VNet tiene acceso a internet por defecto
+- Confundir NSG con Azure Firewall
+
+Prohibido:
+
+- Errores irrelevantes
+- Opiniones personales
