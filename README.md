@@ -1,18 +1,18 @@
+<div align="center">
+
 # 📚 TechBook
 
 ![GitHub Pages](https://img.shields.io/badge/GitHub_Pages-222222?style=for-the-badge&logo=github&logoColor=white)
 ![License](https://img.shields.io/badge/License-MIT-blue?style=for-the-badge)
+
+</div>
 
 > **Repositorio de apuntes técnicos de tecnologías Cloud y programación**
 
 
 <div align="center" style="margin-bottom: 20px;">
 
-<a href="https://jairoprogramador.github.io/techbook/" target="_blank">
-  <button style="background-color: #0078D4; color: white; padding: 12px 24px; border: none; border-radius: 6px; font-size: 16px; font-weight: bold; cursor: pointer; box-shadow: 0 2px 4px rgba(0,0,0,0.2);">
-    Acceder a la Documentación
-  </button>
-</a>
+[![Acceder a la Documentación](https://img.shields.io/badge/Acceder_a_la_Documentación-0078D4?style=for-the-badge&logo=book&logoColor=white)](https://jairoprogramador.github.io/techbook/)
 
 </div>
 
