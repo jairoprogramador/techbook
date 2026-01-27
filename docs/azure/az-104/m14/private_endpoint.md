@@ -2,7 +2,7 @@
 
 ## Analogía
 
-Un Private Endpoint es como tener una línea telefónica privada directa a un servicio que normalmente solo se puede llamar desde fuera. Imagina que vives en un edificio privado y quieres hablar con el banco que está en otro edificio. En lugar de salir a la calle pública y usar el teléfono público, tienes un teléfono interno que te conecta directamente con el banco como si estuviera en tu mismo edificio. Todo el tráfico permanece dentro de tu red privada, sin exponerse al exterior.
+Un Private Endpoint es como tener una línea telefónica privada directa a un servicio que normalmente solo se puede llamar desde fuera. Imagina que vives en un edificio privado y quieres hablar con el banco que está en otro edificio. En lugar de salir a la calle y usar el teléfono público, tienes un teléfono interno que te conecta directamente con el banco como si estuviera en tu mismo edificio. Todo el tráfico permanece dentro de tu red privada, sin exponerse al exterior.
 
 ## Definición
 
@@ -11,16 +11,17 @@ Un Private Endpoint es una interfaz de red (NIC) que se despliega dentro de una 
 Permite:
 
 - Comunicación mediante IP privada dentro de la VNet
-- Acceso a servicios PaaS sin salir a Internet pública
+- Acceso a servicios PaaS sin salir al Internet público
 - Tráfico que permanece en la red privada de Azure
+- Acceso desde conexiones VPN y ExpressRoute mediante IP privada
 
 ## Componentes
 
-**Network Interface (NIC)** – Interfaz de red lógica asignada al Private Endpoint
+**Network Interface Card (NIC)** – Tarjeta de Interfaz de red lógica asignada al Private Endpoint
 
 **IP Privada** – Dirección IP privada asignada desde el espacio de direcciones de la VNet
 
-**Private Link Service** – Servicio que conecta el Private Endpoint con el recurso PaaS
+**Private Link** – Servicio que conecta el Private Endpoint con el recurso PaaS
 
 **DNS Zone** – Zona DNS privada que resuelve el nombre del servicio a la IP privada
 
@@ -38,14 +39,14 @@ Permite:
 - Conectar aplicaciones en VNet a Azure SQL Database de forma privada
 - Acceder a Azure Storage desde recursos en red privada sin exposición pública
 - Integrar servicios PaaS en arquitecturas con requisitos de seguridad estrictos
-- Cumplir con requisitos de compliance que requieren tráfico privado
+- Cumplir con requisitos de cumplimiento que requieren tráfico privado
 - Reducir la superficie de ataque eliminando endpoints públicos
 
 ## Preguntas
 
 1. ¿Un Private Endpoint permite que un recurso en una VNet acceda a un servicio PaaS usando una IP privada de la misma VNet?
 
-2. ¿El tráfico entre un recurso en la VNet y un servicio PaaS a través de Private Endpoint sale a Internet pública?
+2. ¿El tráfico entre un recurso en la VNet y un servicio PaaS a través de Private Endpoint sale al Internet público?
 
 3. ¿Qué componente del Private Endpoint se encarga de resolver el nombre del servicio PaaS a su IP privada?
 

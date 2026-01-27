@@ -6,7 +6,7 @@ Azure Disk Encryption es como tener una caja fuerte para cada disco de tu comput
 
 ## Definición
 
-Azure Disk Encryption es un servicio que cifra los discos de las máquinas virtuales en Azure usando tecnologías de cifrado del sistema operativo.
+Azure Disk Encryption es un servicio que cifra los discos de las máquinas virtuales usando tecnologías de cifrado del sistema operativo.
 
 Permite:
 
@@ -38,7 +38,7 @@ Permite:
 
 ## Casos de Uso
 
-- Cumplir requisitos de compliance que exigen cifrado de discos
+- Cumplir requisitos de cumplimiento que exigen cifrado de discos
 - Proteger datos sensibles en VMs de producción
 - Cumplir con estándares de seguridad como HIPAA o PCI-DSS
 - Proteger contra acceso físico no autorizado a discos

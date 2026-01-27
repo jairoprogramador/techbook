@@ -1,6 +1,6 @@
 ## 🏆 Certificaciones
 
-**[AZ-104: Microsoft Azure Administrator](az-104/az-tema.md)**
+**[AZ-104: Microsoft Azure Administrator](az-104/m09/disk_encryption.md)**
 
 Certificación de nivel asociado que valida las habilidades para implementar, gestionar y monitorear la infraestructura de Microsoft Azure.
 
