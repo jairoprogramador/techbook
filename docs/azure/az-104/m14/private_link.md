@@ -27,7 +27,7 @@ Permite:
 
 1. Private Link crea una conexión privada en la red troncal de Azure
 2. El tráfico se enruta a través de la infraestructura privada de Microsoft
-3. Los datos nunca salen a Internet pública
+3. Los datos nunca salen al Internet público
 4. Private Endpoint actúa como punto de conexión en la VNet del cliente
 5. El servicio PaaS se expone como un recurso local en la VNet
 6. La comunicación ocurre completamente dentro de la red privada de Azure
@@ -35,14 +35,14 @@ Permite:
 ## Casos de Uso
 
 - Conectar VNets a servicios PaaS sin exposición a Internet
-- Cumplir requisitos de seguridad y compliance estrictos
+- Cumplir requisitos de seguridad y cumplimiento estrictos
 - Reducir la superficie de ataque eliminando endpoints públicos
 - Integrar servicios Azure en arquitecturas de red privada
 - Habilitar conectividad privada entre diferentes suscripciones y tenants
 
 ## Preguntas
 
-1. ¿Private Link garantiza que el tráfico entre una VNet y un servicio PaaS nunca toque Internet pública?
+1. ¿Private Link garantiza que el tráfico entre una VNet y un servicio PaaS nunca toque el Internet público?
 
 2. ¿Es Private Link la tecnología que permite que Private Endpoint funcione?
 

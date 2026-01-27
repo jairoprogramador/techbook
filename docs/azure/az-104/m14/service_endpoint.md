@@ -2,7 +2,7 @@
 
 ## Analogía
 
-Un Endpoint de Servicio es como tener un carril exclusivo en la autopista que te lleva directamente a un destino específico, pero sigues usando la autopista pública del lugar. Imagina que quieres ir a un almacén que tiene una dirección pública, pero en lugar de tomar todas las calles normales con semáforos, tienes un carril rápido que te lleva directamente. El almacén sigue teniendo su dirección pública, pero tú llegas más rápido y de forma más segura por el carril privado. El almacén solo abre la puerta para ti porque sabe que vienes de tu barrio específico.
+Un Endpoint de Servicio es como tener un carril exclusivo en la autopista que te lleva directamente a un destino específico, pero sigues usando la autopista pública del lugar. Imagina que quieres ir a un almacén que tiene una dirección pública, pero en lugar de tomar todas las calles normales con semáforos, tienes un carril rápido que te lleva directamente. El almacén sigue teniendo su dirección pública, pero tú llegas más rápido y de forma más segura por el carril privado. El almacén solo abre la puerta para ti porque sabe que vienes por el carril seguro.
 
 ## Definición
 
@@ -14,6 +14,7 @@ Permite:
 - Uso de la IP pública del servicio PaaS
 - Restricción de acceso mediante reglas de firewall del servicio
 - El servicio no se introduce dentro de la VNet
+- Acceso completo a todas las funcionalidades del servicio PaaS
 
 ## Componentes
 
@@ -31,7 +32,7 @@ Permite:
 2. Se configura la regla de firewall en el servicio PaaS para permitir acceso desde esa VNet
 3. El tráfico desde la subred se enruta directamente por la red privada de Azure
 4. El servicio sigue siendo accesible mediante su IP pública
-5. Azure optimiza la ruta internamente sin salir a Internet pública
+5. Azure optimiza la ruta internamente sin salir al Internet público
 6. El firewall del servicio valida que el tráfico proviene de la VNet autorizada
 
 ## Casos de Uso

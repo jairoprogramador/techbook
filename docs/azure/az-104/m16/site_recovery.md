@@ -12,13 +12,13 @@ Permite:
 
 - Replicación continua de VMs a otra región de Azure
 - Tiempo de recuperación (RTO) de minutos
-- Objetivos de punto de recuperación (RPO) de segundos a minutos
+- Objetivos de punto de recuperación (RPO) de segundos o minutos
 - VMs secundarias apagadas hasta que se necesiten
 - Activación automática o manual mediante planes de recuperación
 
 ## Componentes
 
-**Replicación Continua** – Proceso que copia constantemente los cambios de las VMs primarias a la región secundaria
+**Replicación Continua** – Proceso que copia constantemente los cambios de las VMs primarias a las secundaria
 
 **Plan de Recuperación** – Documento digital, script o flujo que define cómo activar las VMs secundarias durante un failover
 
@@ -35,11 +35,11 @@ Permite:
 ## Funcionalidad
 
 1. Se configura Azure Site Recovery para replicar VMs de una región primaria a una secundaria
-2. El servicio replica continuamente los cambios de las VMs primarias a la región secundaria
+2. El servicio replica continuamente los cambios de las VMs primarias a las secundaria
 3. Las VMs secundarias se crean pero permanecen apagadas para reducir costos
 4. Se define un plan de recuperación que especifica el orden y configuración de activación
 5. En caso de desastre, se ejecuta el failover activando las VMs secundarias
-6. El tiempo de recuperación es de minutos, con pérdida mínima de datos según el RPO configurado
+6. El tiempo de recuperación es de minutos o segundos, con pérdida mínima de datos según el RPO configurado
 7. Una vez resuelto el problema, se ejecuta failback para regresar a las VMs primarias
 
 ## Casos de Uso

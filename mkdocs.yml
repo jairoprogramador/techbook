@@ -4,14 +4,18 @@ nav:
   - Azure:
     - Inicio: azure/index.md
     - AZ-104:
+        - M04 - Gobernanza:
+          - Azure Policy: azure/az-104/m04/azure_policy.md
         - M09 - Virtual Machines:
           - Disk Encryption: azure/az-104/m09/disk_encryption.md
+        - M14 - Redes Virtuales:
+          - 08.- Grupo de Seguridad de Red: azure/az-104/m14/grupo_seguridad_red.md
+          - 09.- Grupo de Seguridad de Aplicación: azure/az-104/m14/grupo_seguridad_aplicacion.md
+          - 10.- Private Endpoint: azure/az-104/m14/private_endpoint.md
+          - 11.- Private Link: azure/az-104/m14/private_link.md
+          - 12.- Endpoint de Servicio: azure/az-104/m14/service_endpoint.md
         - M16 - Recuperación:
           - Site Recovery: azure/az-104/m16/site_recovery.md
-        - M14 - Redes Virtuales:
-          - Private Endpoint: azure/az-104/m14/private_endpoint.md
-          - Private Link: azure/az-104/m14/private_link.md
-          - Endpoint de Servicio: azure/az-104/m14/service_endpoint.md
 theme:
   name: material
   locale: es
