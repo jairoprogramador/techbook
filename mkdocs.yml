@@ -4,6 +4,8 @@ nav:
   - Azure:
     - Inicio: azure/index.md
     - AZ-104:
+        - M04 - Gobernanza:
+          - Azure Policy: azure/az-104/m04/azure_policy.md
         - M09 - Virtual Machines:
           - Disk Encryption: azure/az-104/m09/disk_encryption.md
         - M14 - Redes Virtuales:
