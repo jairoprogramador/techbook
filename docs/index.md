@@ -1,6 +1,6 @@
 # TechBook - Repositorio de Apuntes Técnicos
 [![Cloud](https://img.shields.io/badge/Cloud-Azure-0078D4?style=for-the-badge&logo=amazon-aws&logoColor=white)](azure/index.md)
-[![Certifications](https://img.shields.io/badge/Certifications-AZ_104-0078D4?style=for-the-badge&logo=microsoft&logoColor=white)](azure/az-104/az-tema.md)
+[![Certifications](https://img.shields.io/badge/Certifications-AZ_104-0078D4?style=for-the-badge&logo=microsoft&logoColor=white)](azure/az-104/m04/azure_policy.md)
 
 ## Acerca de este Repositorio
 

@@ -6,6 +6,9 @@ nav:
     - AZ-104:
         - M04 - Gobernanza:
           - Azure Policy: azure/az-104/m04/azure_policy.md
+        - M05 - Entra ID:
+          - Grupos de Seguridad: azure/az-104/m05/grupos_seguridad_entra_id.md
+          - Grupos de Microsoft 365: azure/az-104/m05/grupos_microsoft365_entra_id.md
         - M09 - Virtual Machines:
           - Disk Encryption: azure/az-104/m09/disk_encryption.md
         - M14 - Redes Virtuales:
@@ -14,6 +17,11 @@ nav:
           - 10.- Private Endpoint: azure/az-104/m14/private_endpoint.md
           - 11.- Private Link: azure/az-104/m14/private_link.md
           - 12.- Endpoint de Servicio: azure/az-104/m14/service_endpoint.md
+        - M15 - Monitorización:
+          - 01.- Azure Monitor: azure/az-104/m15/azure_monitor.md
+          - 02.- Log Analytics: azure/az-104/m15/log_analytics.md
+          - 03.- Application Insights: azure/az-104/m15/application_insights.md
+          - 04.- Network Watcher: azure/az-104/m15/network_watcher.md
         - M16 - Recuperación:
           - Site Recovery: azure/az-104/m16/site_recovery.md
 theme:
