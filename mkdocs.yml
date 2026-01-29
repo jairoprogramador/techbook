@@ -4,17 +4,17 @@ nav:
   - Azure:
     - Inicio: azure/index.md
     - AZ-104:
-        - M04 - Gobernanza:
+        - 04 - Gobernanza:
           - Azure Policy: azure/az-104/m04/azure_policy.md
-        - M05 - Entra ID:
+        - 05 - Entra ID:
           - Grupos de Seguridad: azure/az-104/m05/grupos_seguridad_entra_id.md
           - Grupos de Microsoft 365: azure/az-104/m05/grupos_microsoft365_entra_id.md
-        - M08 - Almacenamiento:
+        - 08 - Almacenamiento:
           - Storage Account: azure/az-104/m08/azure_storage_account.md
           - Disk Storage: azure/az-104/m08/azure_disk_storage.md
           - File Storage: azure/az-104/m08/azure_file_storage.md
           - File Sync: azure/az-104/m08/azure_file_sync.md
-        - M09 - Virtual Machines:
+        - 09 - Virtual Machines:
           - 01.- Definición: azure/az-104/m09/vm_definition.md
           - 02.- VM Sizes: azure/az-104/m09/vm_sizes.md
           - 03.- Managed Disks: azure/az-104/m09/managed_disks.md
@@ -22,29 +22,29 @@ nav:
           - 05.- Availability Zones: azure/az-104/m09/availability_zones.md
           - 06.- VM Redeploy: azure/az-104/m09/vm_redeploy.md
           - 07.- Disk Encryption: azure/az-104/m09/disk_encryption.md
-        - M10 - Azure Resource Manager:
+        - 10 - Azure Resource Manager:
           - 01.- Definición: azure/az-104/m10/arm_definition.md
           - 02.- Plantillas ARM: azure/az-104/m10/arm_templates.md
-        - M11 - Azure App Service:
+        - 11 - Azure App Service:
           - 01.- Definición: azure/az-104/m11/azure_app_service_definition.md
-        - M12 - Contenedores:
+        - 12 - Contenedores:
           - 01.- Container Registry (ACR): azure/az-104/m12/azure_container_registry.md
           - 02.- Container Instances (ACI): azure/az-104/m12/azure_container_instance.md
           - 03.- Container Apps (ACA): azure/az-104/m12/azure_container_apps.md
           - 04.- Kubernetes Service (AKS): azure/az-104/m12/azure_kubernetes_service.md
-        - M14 - Redes Virtuales:
+        - 14 - Redes Virtuales:
           - 08.- Grupo de Seguridad de Red: azure/az-104/m14/grupo_seguridad_red.md
           - 09.- Grupo de Seguridad de Aplicación: azure/az-104/m14/grupo_seguridad_aplicacion.md
           - 10.- Private Endpoint: azure/az-104/m14/private_endpoint.md
           - 11.- Private Link: azure/az-104/m14/private_link.md
           - 12.- Endpoint de Servicio: azure/az-104/m14/service_endpoint.md
-        - M15 - Monitorización:
+        - 15 - Monitorización:
           - 01.- Azure Monitor: azure/az-104/m15/azure_monitor.md
           - 02.- Log Analytics: azure/az-104/m15/log_analytics.md
           - 03.- Application Insights: azure/az-104/m15/application_insights.md
           - 04.- Network Watcher: azure/az-104/m15/network_watcher.md
           - 05.- Service Health: azure/az-104/m15/azure_service_health.md
-        - M16 - Recuperación:
+        - 16 - Recuperación:
           - Site Recovery: azure/az-104/m16/site_recovery.md
 theme:
   name: material
