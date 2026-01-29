@@ -11,6 +11,7 @@ Log Analytics es un servicio dentro de Azure Monitor que proporciona almacenamie
 Permite:
 
 - Almacenar registros de eventos y actividades en un Log Analytics Workspace
+- Configurar explícitamente qué eventos de Windows se recolectan desde máquinas virtuales
 - Consultar y analizar grandes volúmenes de datos usando KQL
 - Buscar eventos específicos como quién eliminó un recurso o errores de aplicación
 - Analizar tendencias y patrones en los datos históricos
@@ -31,15 +32,19 @@ Permite:
 
 **Integraciones** – Conexiones con recursos de Azure y fuentes externas para recolectar registros
 
+**Configuración de Recopilación de Eventos** – Configuración explícita necesaria para recolectar registros de eventos de Windows desde máquinas virtuales
+
 ## Funcionalidad
 
 1. Se crea un Log Analytics Workspace que actúa como almacén centralizado de registros
-2. Los recursos de Azure envían sus registros al workspace automáticamente o mediante configuración
-3. Los registros se almacenan en tablas organizadas por tipo de evento o recurso
-4. Se escriben consultas KQL para buscar información específica en los registros almacenados
-5. El motor de consulta procesa las consultas y devuelve resultados filtrados
-6. Los resultados se pueden visualizar, exportar o usar para generar alertas
-7. Las consultas pueden buscar eventos históricos, errores, actividades de usuarios o patrones de comportamiento
+2. Se instala el agente (Microsoft Monitoring Agent o Azure Monitor Agent) en las máquinas virtuales
+3. **Se configura explícitamente la recopilación de registros de eventos de Windows en el workspace** (paso crítico)
+4. Los recursos de Azure envían sus registros al workspace según la configuración establecida
+5. Los registros se almacenan en tablas organizadas por tipo de evento o recurso
+6. Se escriben consultas KQL para buscar información específica en los registros almacenados
+7. El motor de consulta procesa las consultas y devuelve resultados filtrados
+8. Los resultados se pueden visualizar, exportar o usar para generar alertas
+9. Las consultas pueden buscar eventos históricos, errores, actividades de usuarios o patrones de comportamiento
 
 ## Casos de Uso
 
@@ -50,6 +55,13 @@ Permite:
 - Generar reportes personalizados consultando datos históricos específicos
 - Monitorear actividades de usuarios y cambios en la configuración de recursos
 - Correlacionar eventos de múltiples recursos para análisis de incidentes
+
+## Errores Comunes
+
+- Pensar que tener el workspace y el agente configurado es suficiente para recolectar eventos de Windows
+- Asumir que los registros de eventos del sistema de Windows se recolectan automáticamente sin configuración explícita
+- Crear alertas basadas en eventos de Windows sin haber configurado la recopilación de eventos en el workspace
+- Confundir la instalación del agente con la configuración de recopilación de eventos específicos
 
 ## Preguntas
 
@@ -62,3 +74,7 @@ Permite:
 4. ¿El Log Analytics Workspace es el almacén de datos donde se guardan los registros de los recursos de Azure?
 
 5. ¿Log Analytics permite buscar eventos específicos como errores 404 o actividades de usuarios mediante consultas KQL?
+
+6. ¿Es necesario configurar explícitamente la recopilación de registros de eventos de Windows en el workspace después de instalar el agente en una VM?
+
+7. ¿Tener un Log Analytics Workspace y el Microsoft Monitoring Agent instalado es suficiente para que los eventos del registro del sistema de Windows se recolecten automáticamente?
