@@ -1,7 +1,5 @@
 # Private Link
 
-## Analogía
-
 Private Link es como un túnel privado bajo tierra que conecta tu edificio con otro edificio sin salir a la calle pública. Imagina que quieres ir del edificio A al edificio B, pero en lugar de caminar por la calle donde todos pueden verte, tienes un pasadizo subterráneo privado que te lleva directamente. Todo el tráfico viaja por este túnel privado, completamente aislado del tráfico público de Internet.
 
 ## Definición

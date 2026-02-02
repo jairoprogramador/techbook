@@ -1,7 +1,5 @@
 # Endpoint de Servicio
 
-## Analogía
-
 Un Endpoint de Servicio es como tener un carril exclusivo en la autopista que te lleva directamente a un destino específico, pero sigues usando la autopista pública del lugar. Imagina que quieres ir a un almacén que tiene una dirección pública, pero en lugar de tomar todas las calles normales con semáforos, tienes un carril rápido que te lleva directamente. El almacén sigue teniendo su dirección pública, pero tú llegas más rápido y de forma más segura por el carril privado. El almacén solo abre la puerta para ti porque sabe que vienes por el carril seguro.
 
 ## Definición

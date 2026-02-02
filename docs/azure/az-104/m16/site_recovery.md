@@ -1,12 +1,12 @@
 # Azure Site Recovery
 
-## Analogía
-
 Azure Site Recovery es como tener una copia de seguridad completa de tu oficina en otra ciudad, pero mucho más inteligente. Imagina que tu oficina principal tiene un desastre: un incendio, un terremoto o cualquier catástrofe. En lugar de perder todo y empezar de cero, tienes una oficina gemela en otra ciudad con todos tus documentos, computadoras y sistemas ya preparados. Esta oficina secundaria está apagada para ahorrar costos, pero tiene todo listo. Cuando ocurre el desastre, solo necesitas "encender" la oficina secundaria y en minutos estás operando de nuevo, casi sin perder información.
+
+![Image title](img/SiteRecovery.png){ align=center }
 
 ## Definición
 
-Azure Site Recovery es un servicio de recuperación ante desastres que replica máquinas virtuales y aplicaciones a una región secundaria para garantizar la continuidad del negocio.
+Azure Site Recovery es un servicio de recuperación ante desastres que **replica** máquinas virtuales y aplicaciones a una región secundaria para garantizar la continuidad del negocio.
 
 Permite:
 

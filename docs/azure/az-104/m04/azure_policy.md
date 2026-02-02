@@ -1,8 +1,8 @@
 # Azure Policy
 
-## Analogía
-
 Azure Policy es como las reglas de una empresa que todos deben seguir, sin importar quién seas o qué cargo tengas. Imagina que trabajas en una oficina donde hay reglas estrictas: todos los documentos deben tener una etiqueta del departamento al que pertenecen, todas las puertas deben estar cerradas con llave, y todos los computadores deben tener un software de seguridad instalado. Estas reglas se aplican automáticamente a todos, desde el empleado nuevo hasta el director. Si alguien intenta crear un documento sin etiqueta, el sistema simplemente no lo permite. Es como tener un supervisor automático que vigila que todo cumpla con las normas de la empresa.
+
+![Image title](img/AzurePolicy.jpg){ align=center }
 
 ## Definición
 

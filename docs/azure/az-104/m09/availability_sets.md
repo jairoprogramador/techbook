@@ -24,8 +24,6 @@ Permite:
 
 **Update Domain** – Grupo de VMs que se reinician juntas durante mantenimiento (hasta 20 por Availability Set)
 
-**Availability Set** – Recurso lógico que agrupa VMs y define su distribución en dominios
-
 **SLA 99.95%** – Acuerdo de nivel de servicio garantizado cuando hay 2 o más VMs en un Availability Set
 
 **Rack** – Estructura física que contiene múltiples servidores físicos
