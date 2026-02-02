@@ -1,7 +1,5 @@
 # Grupos de Microsoft 365 en Entra ID
 
-## Analogía
-
 Un grupo de Microsoft 365 es como un equipo de trabajo completo con dos funciones: por un lado, es un espacio de colaboración donde todos comparten archivos, se comunican y trabajan juntos (como un equipo de Microsoft Teams o un sitio de SharePoint). Por otro lado, es también una identidad que determina quién tiene acceso a qué recursos (como un pase de acceso). Y además, tiene un temporizador incorporado: cuando el proyecto termina, el sistema te avisa y puedes renovarlo si sigue siendo necesario, o se elimina automáticamente si ya no se usa. Es un objeto híbrido que combina colaboración e identidad en una sola entidad, con la ventaja adicional de políticas de expiración automática.
 
 ## Definición

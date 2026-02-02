@@ -1,7 +1,5 @@
 # Application Security Group (ASG)
 
-## Analogía
-
 Un Application Security Group es como tener etiquetas de colores para organizar tus servidores por función, sin importar dónde estén físicamente. Imagina que tienes varios servidores web, varios servidores de base de datos y varios servidores de aplicación distribuidos en diferentes lugares. En lugar de recordar la dirección IP de cada uno para configurar las reglas de seguridad, simplemente dices "todos los servidores web" o "todos los servidores de base de datos". Es como tener grupos de WhatsApp: no necesitas saber el número de teléfono de cada persona, solo agregas al grupo y todos reciben el mismo mensaje. Así, cuando configuras las reglas de seguridad, solo mencionas el grupo y automáticamente se aplica a todas las máquinas de ese grupo, sin importar si cambian de IP o se mueven a otra subred.
 
 ## Definición

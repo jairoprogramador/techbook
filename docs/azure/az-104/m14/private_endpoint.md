@@ -1,7 +1,5 @@
 # Private Endpoint
 
-## Analogía
-
 Un Private Endpoint es como tener una línea telefónica privada directa a un servicio que normalmente solo se puede llamar desde fuera. Imagina que vives en un edificio privado y quieres hablar con el banco que está en otro edificio. En lugar de salir a la calle y usar el teléfono público, tienes un teléfono interno que te conecta directamente con el banco como si estuviera en tu mismo edificio. Todo el tráfico permanece dentro de tu red privada, sin exponerse al exterior.
 
 ## Definición

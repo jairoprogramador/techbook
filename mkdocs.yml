@@ -4,16 +4,31 @@ nav:
   - Azure:
     - Inicio: azure/index.md
     - AZ-104:
+        - 03 - Herramientas:
+          - 01.- Azure CLI: azure/az-104/m03/azure_cli.md
         - 04 - Gobernanza:
-          - Azure Policy: azure/az-104/m04/azure_policy.md
+          - 01.- Recurso: azure/az-104/m04/recurso.md
+          - 02.- Grupo de recursos: azure/az-104/m04/grupo_recursos.md
+          - 03.- Suscripciones: azure/az-104/m04/suscripciones.md
+          - 04.- Grupo de administración: azure/az-104/m04/grupo_administracion.md
+          - 05.- Azure Cost Management: azure/az-104/m04/azure_cost_management.md
+          - 06.- Presupuestos: azure/az-104/m04/presupuestos.md
+          - 07.- Azure Policy: azure/az-104/m04/azure_policy.md
         - 05 - Entra ID:
-          - Grupos de Seguridad: azure/az-104/m05/grupos_seguridad_entra_id.md
-          - Grupos de Microsoft 365: azure/az-104/m05/grupos_microsoft365_entra_id.md
+          - 01.- Definición: azure/az-104/m05/entra_id_definicion.md
+          - 02.- Entra Connect: azure/az-104/m05/entra_connect.md
+          - 03.- Usuarios invitados (B2B): azure/az-104/m05/usuarios_invitados_entra_id.md
+          - 04.- Grupos de Seguridad: azure/az-104/m05/grupos_seguridad_entra_id.md
+          - 05.- Grupos de Microsoft 365: azure/az-104/m05/grupos_microsoft365_entra_id.md
+          - 06.- PIM (Privileged Identity Management): azure/az-104/m05/pim.md
+        - 06 - Control de Acceso:
+          - 01.- RBAC: azure/az-104/m06/rbac.md
+          - 02.- SAS Token: azure/az-104/m06/sas_token.md
         - 08 - Almacenamiento:
-          - Storage Account: azure/az-104/m08/azure_storage_account.md
-          - Disk Storage: azure/az-104/m08/azure_disk_storage.md
-          - File Storage: azure/az-104/m08/azure_file_storage.md
-          - File Sync: azure/az-104/m08/azure_file_sync.md
+          - 01.- Storage Account: azure/az-104/m08/azure_storage_account.md
+          - 02.- Disk Storage: azure/az-104/m08/azure_disk_storage.md
+          - 03.- File Storage: azure/az-104/m08/azure_file_storage.md
+          - 04.- File Sync: azure/az-104/m08/azure_file_sync.md
         - 09 - Virtual Machines:
           - 01.- Definición: azure/az-104/m09/vm_definition.md
           - 02.- VM Sizes: azure/az-104/m09/vm_sizes.md
@@ -22,9 +37,13 @@ nav:
           - 05.- Availability Zones: azure/az-104/m09/availability_zones.md
           - 06.- VM Redeploy: azure/az-104/m09/vm_redeploy.md
           - 07.- Disk Encryption: azure/az-104/m09/disk_encryption.md
-        - 10 - Azure Resource Manager:
-          - 01.- Definición: azure/az-104/m10/arm_definition.md
+          - 08.- VM Scale Sets: azure/az-104/m09/vm_scale_sets.md
+          - 09.- Load Balancer: azure/az-104/m09/load_balancer.md
+          - 10.- Application Gateway: azure/az-104/m09/application_gateway.md
+        - 10 - IaaC:
+          - 01.- ARM: azure/az-104/m10/arm_definition.md
           - 02.- Plantillas ARM: azure/az-104/m10/arm_templates.md
+          - 03.- Bicep: azure/az-104/m10/bicep.md
         - 11 - Azure App Service:
           - 01.- Definición: azure/az-104/m11/azure_app_service_definition.md
         - 12 - Contenedores:
@@ -32,12 +51,22 @@ nav:
           - 02.- Container Instances (ACI): azure/az-104/m12/azure_container_instance.md
           - 03.- Container Apps (ACA): azure/az-104/m12/azure_container_apps.md
           - 04.- Kubernetes Service (AKS): azure/az-104/m12/azure_kubernetes_service.md
-        - 14 - Redes Virtuales:
-          - 08.- Grupo de Seguridad de Red: azure/az-104/m14/grupo_seguridad_red.md
-          - 09.- Grupo de Seguridad de Aplicación: azure/az-104/m14/grupo_seguridad_aplicacion.md
-          - 10.- Private Endpoint: azure/az-104/m14/private_endpoint.md
-          - 11.- Private Link: azure/az-104/m14/private_link.md
-          - 12.- Endpoint de Servicio: azure/az-104/m14/service_endpoint.md
+        - 14 - Redes:
+          - 01.- Red virtual (VNet): azure/az-104/m14/vnet_definicion.md
+          - 02.- VNet Peering: azure/az-104/m14/vnet_peering.md
+          - 03.- Rutas definidas por el usuario (UDR): azure/az-104/m14/rutas_definidas_usuario.md
+          - 04.- Appliance de seguridad (NVA): azure/az-104/m14/appliance_seguridad.md
+          - 05.- VPN Gateway: azure/az-104/m14/vpn_gateway.md
+          - 06.- VPN Punto a Sitio (P2S): azure/az-104/m14/vpn_punto_a_sitio.md
+          - 07.- VPN Sitio a Sitio (S2S): azure/az-104/m14/vpn_sitio_a_sitio.md
+          - 08.- VPN VNet a VNet: azure/az-104/m14/vpn_vnet_a_vnet.md
+          - 09.- Herramientas diagnóstico: azure/az-104/m14/herramientas_diagnostico_red.md
+          - 10.- ExpressRoute: azure/az-104/m14/express_route.md
+          - 11.- Grupo de Seguridad de Red: azure/az-104/m14/grupo_seguridad_red.md
+          - 12.- Grupo de Seguridad de Aplicación: azure/az-104/m14/grupo_seguridad_aplicacion.md
+          - 13.- Private Endpoint: azure/az-104/m14/private_endpoint.md
+          - 14.- Private Link: azure/az-104/m14/private_link.md
+          - 15.- Endpoint de Servicio: azure/az-104/m14/service_endpoint.md
         - 15 - Monitorización:
           - 01.- Azure Monitor: azure/az-104/m15/azure_monitor.md
           - 02.- Log Analytics: azure/az-104/m15/log_analytics.md
@@ -45,10 +74,16 @@ nav:
           - 04.- Network Watcher: azure/az-104/m15/network_watcher.md
           - 05.- Service Health: azure/az-104/m15/azure_service_health.md
         - 16 - Recuperación:
-          - Site Recovery: azure/az-104/m16/site_recovery.md
+          - 01.- Azure Backup: azure/az-104/m16/backup.md
+          - 02.- Site Recovery: azure/az-104/m16/site_recovery.md
+          - 03.- Recovery Services Vault: azure/az-104/m16/recovery_services_vault.md
 theme:
   name: material
   locale: es
   features:
     - navigation.tabs
     - navigation.instant
+markdown_extensions:
+  - attr_list
+  - md_in_html
+  - pymdownx.blocks.caption

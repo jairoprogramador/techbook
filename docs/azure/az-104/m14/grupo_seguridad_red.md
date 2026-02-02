@@ -1,7 +1,5 @@
 # Network Security Group (NSG)
 
-## Analogía
-
 Un Network Security Group es como un guardia de seguridad en la entrada de un edificio que revisa a cada persona antes de dejarla entrar o salir. Imagina que tienes un edificio con múltiples puertas y cada una tiene un guardia con una lista de reglas. El guardia verifica: ¿de dónde vienes? (dirección IP), ¿a qué puerta quieres ir? (puerto), ¿qué tipo de comunicación es? (protocolo). Si cumples con las reglas permitidas, pasas. Si no, te bloquea. Este guardia puede estar en la entrada principal del edificio (subred) o en la puerta de tu oficina específica (NIC). Siempre está vigilando y aplicando las mismas reglas sin excepción.
 
 ## Definición

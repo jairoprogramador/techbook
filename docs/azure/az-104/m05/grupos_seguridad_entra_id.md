@@ -1,7 +1,5 @@
 # Grupos de Seguridad en Entra ID
 
-## Analogía
-
 Un grupo de seguridad en Entra ID es como tener un pase de acceso que determina a qué áreas puedes entrar en un edificio. Imagina que trabajas en una empresa grande con diferentes departamentos: desarrollo, finanzas, recursos humanos, etc. En lugar de dar permisos individuales a cada persona, dispositivo o sistema para cada recurso, creas grupos como "Desarrolladores", "Contadores" o "Gerentes". Puedes incluso tener grupos dentro de grupos: por ejemplo, el grupo "Equipo de Desarrollo" puede contener los grupos "Desarrolladores Senior" y "Desarrolladores Junior". Cuando alguien necesita acceso a un servidor, una base de datos o un sitio web, simplemente lo agregas al grupo correspondiente y automáticamente obtiene todos los permisos de ese grupo. Es como tener llaves maestras organizadas por función: si eres parte del grupo "Desarrolladores", tienes acceso a los servidores de desarrollo, pero no a los de producción. Si cambias de departamento, solo te mueven de grupo y tus permisos se actualizan automáticamente.
 
 ## Definición
