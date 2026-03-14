@@ -1,4 +1,4 @@
-# Usuarios invitados
+# Microsoft Entra B2B
 
 Un usuario invitado en Entra ID es como dar acceso a un colaborador externo sin crearle una cuenta en tu empresa. Imagina que un proveedor o un consultor necesita entrar a tu sitio de SharePoint o a una aplicación que usa Entra ID. En lugar de crearle un usuario interno, lo invitas por correo: él sigue usando su propia identidad (su empresa o su cuenta personal) y tú decides a qué recursos o aplicaciones puede acceder. Entra ID lo reconoce como invitado en tu tenant y aplica las políticas que definas (acceso, Conditional Access, etc.) sin gestionar su contraseña ni su directorio de origen.
 

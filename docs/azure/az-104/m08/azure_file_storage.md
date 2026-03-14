@@ -1,7 +1,5 @@
 # Azure File Storage
 
-## Analogía
-
 Azure File Storage es como tener una unidad de red compartida en la nube que funciona exactamente igual que las carpetas compartidas que usas en tu oficina. Imagina que en tu oficina tienes una carpeta compartida en un servidor donde todos pueden guardar y acceder a archivos. Azure File Storage funciona igual, pero en lugar de estar en un servidor físico en tu oficina, está en la nube de Azure. Puedes montarla en Windows como si fuera una unidad de red normal (como Z:\), o en Linux como si fuera un sistema de archivos normal. Lo mejor es que puedes acceder a ella desde cualquier lugar: desde VMs en Azure, desde servidores on-premises, o incluso desde tu computadora personal. Es como tener un disco duro compartido en la nube que se comporta exactamente como un disco duro local, pero accesible desde cualquier lugar con las credenciales correctas.
 
 ## Definición

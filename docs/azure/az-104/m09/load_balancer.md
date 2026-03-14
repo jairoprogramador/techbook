@@ -1,7 +1,5 @@
 # Azure Load Balancer
 
-## Analogía
-
 Azure Load Balancer es como el repartidor que distribuye las peticiones entre varios servidores sin mirar el contenido del paquete: solo mira el puerto y el protocolo (TCP o UDP) y envía el tráfico a uno de los servidores del grupo que esté sano. No entiende HTTP ni URLs; reparte conexiones de red de forma rápida y con poco retraso. Puede ser público (entrada desde Internet) o interno (solo dentro de la red virtual). Sirve para equilibrar carga de bases de datos, APIs TCP/UDP o cualquier tráfico que no requiera decisiones basadas en la URL o en el contenido HTTP.
 
 ## Definición
@@ -14,7 +12,7 @@ Permite:
 - Operar en capa 4 (TCP, UDP): no inspecciona HTTP ni URLs; solo puerto y protocolo
 - Configurar un Load Balancer público (con IP pública) o interno (solo tráfico dentro de la VNet)
 - Usar health probes (TCP o HTTP) para comprobar que los backends están sanos y dejar de enviar tráfico a los que fallen
-- Definir reglas de equilibrio de carga (puerto frontend → puerto backend) y reglas NAT de entrada (puerto frontend → una VM concreta)
+- Definir reglas de equilibrio de carga (puerto frontend → puerto backend) y reglas NAT de entrada (puerto frontend → una VM concreta); en cada regla se puede configurar el modo de distribución (Session persistence); ver **Load Balancer Affinity**
 - Integrar con VM Scale Sets para distribuir tráfico entre las instancias del scale set
 - Ofrecer alto throughput y baja latencia al no procesar contenido de capa 7
 
@@ -24,7 +22,7 @@ Permite:
 
 **Backend pool** – Conjunto de destinos (NICs de VMs o configuración del VM Scale Set) entre los que se distribuye el tráfico; todas las instancias del pool reciben tráfico según la regla de equilibrio
 
-**Regla de equilibrio de carga (load balancing rule)** – Asocia un frontend (IP:puerto) con un backend pool y un puerto; define el protocolo (TCP o UDP) y opcionalmente la afinidad de sesión (source IP); el tráfico que llega al frontend se distribuye entre los backends del pool
+**Regla de equilibrio de carga (load balancing rule)** – Asocia un frontend (IP:puerto) con un backend pool y un puerto; define el protocolo (TCP o UDP) y el modo de distribución (Session persistence); el tráfico que llega al frontend se distribuye entre los backends del pool (detalle de affinity en **Load Balancer Affinity**)
 
 **Regla NAT de entrada (inbound NAT rule)** – Asocia un puerto del frontend con una VM concreta del backend (no equilibrio; tráfico directo a esa VM); útil para RDP, SSH u otro acceso directo a una instancia
 
@@ -42,7 +40,7 @@ Permite:
 2. Se configura el frontend: IP pública (público) o IP privada de una subred (interno)
 3. Se crea un backend pool y se añaden las VMs (NICs) o se asocia el VM Scale Set
 4. Se configura un health probe (TCP o HTTP) para comprobar el estado de los backends
-5. Se crea una regla de equilibrio de carga: frontend (IP:puerto) → backend pool (puerto), protocolo TCP o UDP; opcionalmente afinidad de sesión
+5. Se crea una regla de equilibrio de carga: frontend (IP:puerto) → backend pool (puerto), protocolo TCP o UDP; opcionalmente se configura Session persistence (ver **Load Balancer Affinity**)
 6. Opcionalmente se crean reglas NAT de entrada para enviar tráfico de un puerto del frontend a una VM concreta (p. ej. RDP, SSH)
 7. El Load Balancer distribuye las nuevas conexiones entre los backends sanos del pool; no envía tráfico a backends que fallen el health probe
 8. No realiza terminación SSL ni enrutamiento por URL; opera solo en capa 4

@@ -17,10 +17,14 @@ nav:
         - 05 - Entra ID:
           - 01.- Definición: azure/az-104/m05/entra_id_definicion.md
           - 02.- Entra Connect: azure/az-104/m05/entra_connect.md
-          - 03.- Usuarios invitados (B2B): azure/az-104/m05/usuarios_invitados_entra_id.md
-          - 04.- Grupos de Seguridad: azure/az-104/m05/grupos_seguridad_entra_id.md
-          - 05.- Grupos de Microsoft 365: azure/az-104/m05/grupos_microsoft365_entra_id.md
-          - 06.- PIM (Privileged Identity Management): azure/az-104/m05/pim.md
+          - 03.- Sincronización Delta: azure/az-104/m05/sincronizacion_delta.md
+          - 04.- Sincronización Inicial: azure/az-104/m05/sincronizacion_inicial.md
+          - 05.- Sincronización Delta vs. Inicial: azure/az-104/m05/sincronizacion_delta_vs_inicial.md
+          - 06.- Usuarios invitados: azure/az-104/m05/b2b.md
+          - 07.- Grupos de Seguridad: azure/az-104/m05/grupos_seguridad_entra_id.md
+          - 08.- Grupos de Microsoft 365: azure/az-104/m05/grupos_microsoft365_entra_id.md
+          - 09.- PIM (Privileged Identity Management): azure/az-104/m05/pim.md
+          - 10.- Acceso Condicional: azure/az-104/m05/acceso_condicional.md
         - 06 - Control de Acceso:
           - 01.- RBAC: azure/az-104/m06/rbac.md
           - 02.- SAS Token: azure/az-104/m06/sas_token.md
@@ -39,7 +43,8 @@ nav:
           - 07.- Disk Encryption: azure/az-104/m09/disk_encryption.md
           - 08.- VM Scale Sets: azure/az-104/m09/vm_scale_sets.md
           - 09.- Load Balancer: azure/az-104/m09/load_balancer.md
-          - 10.- Application Gateway: azure/az-104/m09/application_gateway.md
+          - 10.- Load Balancer Affinity: azure/az-104/m09/load_balancer_affinity.md
+          - 11.- Application Gateway: azure/az-104/m09/application_gateway.md
         - 10 - IaaC:
           - 01.- ARM: azure/az-104/m10/arm_definition.md
           - 02.- Plantillas ARM: azure/az-104/m10/arm_templates.md
@@ -67,6 +72,11 @@ nav:
           - 13.- Private Endpoint: azure/az-104/m14/private_endpoint.md
           - 14.- Private Link: azure/az-104/m14/private_link.md
           - 15.- Endpoint de Servicio: azure/az-104/m14/service_endpoint.md
+          - 16.- Zona DNS privada: azure/az-104/m14/dns_privado.md
+          - 17.- Zona DNS pública: azure/az-104/m14/dns_publico.md
+          - 18.- Registros DNS: azure/az-104/m14/registros_dns.md
+          - 19.- Azure Front Door: azure/az-104/m14/azure_front_door.md
+          - 20.- Azure Traffic Manager: azure/az-104/m14/azure_traffic_manager.md
         - 15 - Monitorización:
           - 01.- Azure Monitor: azure/az-104/m15/azure_monitor.md
           - 02.- Log Analytics: azure/az-104/m15/log_analytics.md
@@ -77,6 +87,15 @@ nav:
           - 01.- Azure Backup: azure/az-104/m16/backup.md
           - 02.- Site Recovery: azure/az-104/m16/site_recovery.md
           - 03.- Recovery Services Vault: azure/az-104/m16/recovery_services_vault.md
+        - Casos:
+          - 01.- Case 01: azure/az-104/casos/case_01.md
+  - Arquitectura:
+    - 1. Que es: arquitectura/que_es.md
+    - 2. Estilos:
+      - 01.- Concepto: arquitectura/estilos/concepto.md
+      - 02.- Monolito: arquitectura/estilos/monolito.md
+    - 3. Patrones: arquitectura/patrones.md
+    - 4. Principios: arquitectura/principios.md
 theme:
   name: material
   locale: es
