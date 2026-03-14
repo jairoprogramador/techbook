@@ -1,14 +1,9 @@
 <div align="center">
-# 📚 TechBook
-</div>
-
-<div align="center" style="margin-bottom: 20px;">
+<h1>📚 TechBook</h1>
 
 [![Acceder a la Página](https://img.shields.io/badge/Acceder_a_la_Página-0078D4?style=for-the-badge&logo=book&logoColor=white)](https://jairoprogramador.github.io/techbook/)
 
 </div>
-
----
 
 ## 📋 Acerca del Proyecto
 
@@ -21,7 +16,6 @@
 - 🔍 **Búsqueda integrada** - Navegación rápida con MkDocs Material
 - 📝 **Formato consistente** - Estructura uniforme para facilitar el estudio
 
----
 
 ## 🏆 Certificaciones Disponibles
 
@@ -31,16 +25,12 @@
 
 *Más certificaciones próximamente...*
 
----
-
 ## 🛠️ Tecnologías
 
 - **MkDocs** - Generador de documentación estática
 - **Material for MkDocs** - Tema moderno y responsive
 - **GitHub Pages** - Hosting de la documentación
 - **Markdown** - Formato de documentación
-
----
 
 ## 🚀 Uso Local
 
@@ -71,8 +61,6 @@ La documentación estará disponible en `http://127.0.0.1:8000`
 mkdocs build
 ```
 
----
-
 ## 📝 Contribuciones
 
 Este es un repositorio personal de apuntes en constante evolución. Los contenidos se actualizan regularmente conforme se profundiza en los temas y se preparan nuevas certificaciones.
@@ -85,8 +73,6 @@ Este es un repositorio personal de apuntes en constante evolución. Los contenid
 4. Commit tus cambios (`git commit -m 'Agregar nueva sección'`)
 5. Push a la rama (`git push origin feature/mydoc`)
 6. Abre un Pull Request
-
----
 
 ## 📄 Licencia
 
