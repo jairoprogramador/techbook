@@ -1,10 +1,5 @@
 <div align="center">
-
 # 📚 TechBook
-
-![GitHub Pages](https://img.shields.io/badge/GitHub_Pages-222222?style=for-the-badge&logo=github&logoColor=white)
-![License](https://img.shields.io/badge/License-MIT-blue?style=for-the-badge)
-
 </div>
 
 <div align="center" style="margin-bottom: 20px;">
