@@ -90,12 +90,15 @@ nav:
         - Casos:
           - 01.- Case 01: azure/az-104/casos/case_01.md
   - Arquitectura:
-    - 1. Que es: arquitectura/que_es.md
+    - 1. ¿Qué es?: arquitectura/que_es.md
     - 2. Estilos:
-      - 01.- Concepto: arquitectura/estilos/concepto.md
-      - 02.- Monolito: arquitectura/estilos/monolito.md
+      - Definición: arquitectura/estilos/concepto.md
+      - Monolito: arquitectura/estilos/monolito.md
+      - SOA: arquitectura/estilos/soa.md
     - 3. Patrones: arquitectura/patrones.md
     - 4. Principios: arquitectura/principios.md
+  - Php:
+    - 1. Resumen: php/resumen.md
 theme:
   name: material
   locale: es
@@ -106,3 +109,6 @@ markdown_extensions:
   - attr_list
   - md_in_html
   - pymdownx.blocks.caption
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences

@@ -1,7 +1,7 @@
 # ¿Que es un estilo?
 Es un conjunto de caracteristicas que identifican una tendencia. 
 
-En el mundo del Software podemos hablar de paradigmas (programacion orientada a objetos, programacion funcional, programacion reactiva, etc) o de estilos arquitectonicos. No podemos hablar de caracteristicas tangibles, si no mas bien de reglas del mundo abstracto que identifican un estilo de otro.
+En el mundo del software no podemos hablar de caracteristicas tangibles, si no mas bien de reglas del mundo abstracto que identifican un estilo de otro, como por ejemplo paradigmas o estilos arquitectonicos entre otros.
 
 ## Estilo Arquitectonico
 
