@@ -97,6 +97,11 @@ nav:
       - SOA: arquitectura/estilos/soa.md
     - 3. Patrones: arquitectura/patrones.md
     - 4. Principios: arquitectura/principios.md
+  - DevOps:
+    - 1. Monitoreo:
+      - 01.- Definición: devops/monitoreo/definicion.md
+    - 2. Observabilidad:
+      - 01.- Definición: devops/observabilidad/definicion.md
   - Php:
     - 1. Resumen: php/resumen.md
 theme:
