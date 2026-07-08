@@ -47,10 +47,13 @@ git clone https://github.com/jairoprogramador/techbook.git
 cd techbook
 
 # Instalar dependencias
-pip install mkdocs-material
+pip install mkdocs-material 
 
 # Servir localmente
 mkdocs serve
+
+# con python3
+python3 -m mkdocs serve
 ```
 
 La documentación estará disponible en `http://127.0.0.1:8000`
