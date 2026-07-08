@@ -102,6 +102,8 @@ nav:
       - 01.- Definición: devops/monitoreo/definicion.md
     - 2. Observabilidad:
       - 01.- Definición: devops/observabilidad/definicion.md
+    - 3. Chaos Engineering:
+      - 01.- Definición: devops/chaos/definicion.md
   - Php:
     - 1. Resumen: php/resumen.md
 theme:
